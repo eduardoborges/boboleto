@@ -1,6 +1,6 @@
 {
   "name": "boboleto",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "private": "false",
   "repository": "https://github.com/eduardoborges/boboleto",
   "description": "Um conjunto de funções para validar, converter, detectar boletos e cobranças.",
