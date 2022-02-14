@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/eduardoborges/boboleto/compare/v1.0.0...v1.0.1) (2022-02-14)
+
+
+### Bug Fixes
+
+* small ci fixes ([ad3ba41](https://github.com/eduardoborges/boboleto/commit/ad3ba41ca8e75ed42d6e8ff77de2d983e791afec))
+
 # 1.0.0 (2022-02-14)
 
 
