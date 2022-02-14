@@ -1,39 +1,56 @@
 {
-  "name": "@mrmgomes/boleto-utils",
-  "version": "1.2.0",
-  "description": "Biblioteca com funções úteis para a validação de todos os tipos de boleto",
-  "main": "./src/boleto-utils.js",
-  "scripts": {
-    "test": "mocha"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mrmgomes/boleto-utils.git"
-  },
-  "keywords": [
-    "boleto",
-    "boletos",
-    "conta",
-    "convenio",
-    "arrecadacao",
-    "codigo",
-    "barras",
-    "linha",
-    "digitavel",
-    "mrmgomes",
-    "javascript"
-  ],
-  "author": "Marcelo Gomes",
+  "name": "boboleto",
+  "version": "0.0.1",
+  "private": "false",
+  "repository": "https://github.com/eduardoborges/boboleto",
+  "description": "Um conjunto de funções para validar, converter, detectar boletos e cobranças.",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mrmgomes/boleto-utils/issues"
+  "main": "dist/index.js",
+  "module": "dist/index.modern.js",
+  "source": "src/index.ts",
+  "types": "dist/index.d.ts",
+  "engines": {
+    "node": ">=16"
   },
-  "homepage": "https://github.com/mrmgomes/boleto-utils#readme",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch",
+    "prepare": "npm run build",
+    "test": "concurrently 'npm run test:*' -p",
+    "test:unit": "jest ./src --passWithNoTests",
+    "test:build": "npm run build",
+    "test:lint": "npm run lint",
+    "lint": "eslint --ext js,ts src",
+    "lint:fix": "npm run lint -- --fix",
+    "prebuild": "rm -rf dist;"
+  },
   "devDependencies": {
-    "chai": "^4.2.0",
-    "mocha": "^8.0.1"
+    "@semantic-release/changelog": "6.0.1",
+    "@semantic-release/commit-analyzer": "9.0.2",
+    "@semantic-release/git": "10.0.1",
+    "@semantic-release/npm": "9.0.0",
+    "@semantic-release/release-notes-generator": "10.0.3",
+    "@types/jest": "^27.4.0",
+    "@typescript-eslint/eslint-plugin": "5.12.0",
+    "@typescript-eslint/parser": "5.12.0",
+    "concurrently": "7.0.0",
+    "eslint": "8.9.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-import-resolver-typescript": "2.5.0",
+    "eslint-plugin-import": "2.25.4",
+    "jest": "27.5.1",
+    "microbundle": "0.14.2",
+    "semantic-release": "19.0.2",
+    "typescript": "4.5.5"
   },
-  "dependencies": {
-    "moment-timezone": "^0.5.31"
+  "jest": {
+    "verbose": true,
+    "testMatch": [
+      "<rootDir>/**/*.test.ts"
+    ]
   }
 }
