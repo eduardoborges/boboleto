@@ -1,5 +1,5 @@
 ![tests](https://github.com/edniemeyer/boleto-utils/workflows/tests/badge.svg)
-# BoBoleto [progresso]
+# 🤑 Boboleto [progresso]
 
 Uma simples bibliotequinha com algumas funções úteis para os devs que trabalham em fintechs (ou não);
 
@@ -7,9 +7,9 @@ Esse é um fork do [boleto-utils](https://github.com/mrmgomes/boleto-utils) onde
 ## Instalação
 
 ```shell
-$ npm install boboleto
+npm install boboleto
 # ou
-$ yarn install boboleto
+yarn install boboleto
 ```
 
 ## Funções Disponiveis [progresso]
