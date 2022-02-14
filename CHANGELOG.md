@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/eduardoborges/boboleto/compare/v1.0.1...v1.0.2) (2022-02-14)
+
+
+### Bug Fixes
+
+* remove private package prop ([59b5ff0](https://github.com/eduardoborges/boboleto/commit/59b5ff0300a069ebe6260bc9813785f74cab90d9))
+
 ## [1.0.1](https://github.com/eduardoborges/boboleto/compare/v1.0.0...v1.0.1) (2022-02-14)
 
 
