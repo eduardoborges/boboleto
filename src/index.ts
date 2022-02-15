@@ -1,1 +1,1 @@
-export * from './identifyCodeType/identifyCodeType';
+export * from './getCodeType/getCodeType';
