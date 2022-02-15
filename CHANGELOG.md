@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/eduardoborges/boboleto/compare/v1.0.2...v1.1.0) (2022-02-15)
+
+
+### Features
+
+* add getBillType fn ([81d90e4](https://github.com/eduardoborges/boboleto/commit/81d90e4735c8803b486587fe3aefb2c3f0bd4753))
+
 ## [1.0.2](https://github.com/eduardoborges/boboleto/compare/v1.0.1...v1.0.2) (2022-02-14)
 
 
