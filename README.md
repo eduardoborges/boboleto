@@ -11,15 +11,12 @@
   <a href="https://coveralls.io/github/eduardoborges/boboleto?branch=main"><img src="https://coveralls.io/repos/github/kulshekhar/boboleto/badge.svg?branch=main" alt="Coverage status"/> </a>
   <a href="https://github.com/eduardoborges/boboleto/actions/workflows/cd.yml"><img alt="GitHub actions" src="https://github.com/eduardoborges/boboleto/actions/workflows/cd.yml/badge.svg" /> </a>
   <a href="https://github.com/eduardoborges/boboleto/blob/main/LICENSE.md"><img src="https://img.shields.io/npm/l/boboleto.svg?style=flat-square" alt="GitHub license"/> </a>
-  
 </p>
 
-#  [progresso]
-
-
+##  IN PROGRESS WORK
 
 Esse é um fork do [boleto-utils](https://github.com/mrmgomes/boleto-utils) onde o autos fez um excelente trabalho, mas podemos refatorar, não é crianças?
-## 💰 Instalação
+## 💰 Uso
 
 ```shell
 npm install boboleto
@@ -27,9 +24,9 @@ npm install boboleto
 yarn install boboleto
 ```
 
-## 🤑 Funções Disponiveis [progresso]
+## 🤑 Funções Disponiveis
 
-### detectCodeType
+### `detectCodeType(code: string): string`
 
 Verifica a numeração e retorna o tipo do código inserido. `BAR` ou `DIGITABLE`. Requer numeração completa (com ou sem formatação).
 
